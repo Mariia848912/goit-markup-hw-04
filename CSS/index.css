@@ -134,10 +134,19 @@ img {
 
 /* Герой */
 .hero {
+  max-width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
 
-  background-color: var(--color-bg);
+  background-color: rgba(47, 48, 58, 0.4);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+
     
 }
 .hero-information {
